@@ -2,7 +2,7 @@
 
 ## Week 1
 
-Date | Content
+Date | Log
 ------------ | -------------
 30/09/2017 | Downloaded and installed Zotero as a tool to keep track of references & bibliography. Beginning research on what tools I can use in my project. What deep learning framework shall I use and why?
 01/10/2017 | Started reading background research on Machine Learning techniques. Also gathered knowledge on what makes a good data-set for machine learning applications. Started reading up on Convolutional Neural Networks and Generative Adversial Networks.
@@ -13,7 +13,7 @@ Date | Content
 
 ## Week 2
 
-Date | Content
+Date | Log
 ------------ | -------------
 05/10/2017 | Read the opening chapter of the ‘Ashley Book of Knots’. 
 06/10/2017 | Downloaded Tensorflow and the Keras API.
@@ -26,7 +26,7 @@ Date | Content
 
 ## Week 3
 
-Date | Content
+Date | Log
 ------------ | -------------
 12/10/2017 | Started considering what variables should be considered invariant to the convolutional neural network for classifying knots. Image rotation, image brightness and horizontal/vertical flip should definitely be invariants to the knot classification. This is because knots should be identified whatever the rotation, orientation or brightness of a photograph.
 13/10/2017 | Completed a tutorial on training a basic neural network on the Cifar-10 dataset.
