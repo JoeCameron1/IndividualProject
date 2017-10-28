@@ -34,3 +34,29 @@ Date | Duration | Summary
 15/10/2017 | 2 Hours | Researched the various terms of machine learning, such as classification and  clustering using Michael Nielsen’s Deep Learning book as a reference.
 16/10/2017 & 17/10/2017 | 1 Hour | Started working on the data augmentation tutorial by Francois Chollet found at https://blog.keras.io/building-powerful-image-classification-models-using-very-little-data.html. Generally just figuring out how to successfully build, use and augment a dataset suitable for machine learning applications using Keras.
 18/10/2017 | 1 Hour | Made a private GitHub repository for this project.
+
+
+## Week 4
+
+Date | Duration | Summary
+------------ | ------------- | -------------
+19/10/2017 | | 
+20/10/2017 | |
+21/10/2017 | |
+22/10/2017 | |
+23/10/2017 | |
+24/10/2017 | |
+25/10/2017 | |
+
+
+## Week 5
+
+Date | Duration | Summary
+------------ | ------------- | -------------
+26/10/2017 | | 
+27/10/2017 | |
+28/10/2017 | |
+29/10/2017 | |
+30/10/2017 | |
+31/10/2017 | |
+01/11/2017 | |
