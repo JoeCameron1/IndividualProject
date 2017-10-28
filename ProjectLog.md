@@ -40,13 +40,11 @@ Date | Duration | Summary
 
 Date | Duration | Summary
 ------------ | ------------- | -------------
-19/10/2017 | | 
-20/10/2017 | |
-21/10/2017 | |
-22/10/2017 | |
-23/10/2017 | |
-24/10/2017 | |
-25/10/2017 | |
+19/10/2017 | 3 Hours | Researched and selected five knots to gather data on. These five knots are, The Fisherman’s Knot, The Reef Knot, The Mountaineer’s Coil, The Noose and The Alpine Butterfly Knot. My initial dataset will involve these five knots. 
+20/10/2017 | 2 Hours | Completed Francois Chollet’s data augmentation tutorial on the Keras Blog https://blog.keras.io/building-powerful-image-classification-models-using-very-little-data.html. Uploaded my code to this repository. (commit: fe8498b)
+23/10/2017 | 1 Hour | Started initial planning on the structure of my dissertation.
+24/10/2017 | 1 Hour | Reflecting on my dataset variables, and decided to add image contrast, as this could provide useful comparisons in the knot classifier’s performance.
+25/10/2017 | 1 Hour | Decided on an initial dissertation structure. (commit: 3c02019)
 
 
 ## Week 5
