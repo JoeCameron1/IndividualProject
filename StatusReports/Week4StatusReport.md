@@ -14,15 +14,15 @@ Concerning variables within my dataset, I have also decided to add the image con
 
 Another primary goal for the past week was to come up with an initial structure for my dissertation. I’ve identified an initial structure as follows: 
 
-Abstract
-Introduction including motivation and research questions/literature review
-Background and Related Work
-Knot Classification
-Implementation in Keras
-Evaluation
-Conclusion including Future Work
-Appendices
-Bibliography 
+* Abstract
+* Introduction including motivation and research questions/literature review
+* Background and Related Work
+* Knot Classification
+* Implementation in Keras
+* Evaluation
+* Conclusion including Future Work
+* Appendices
+* Bibliography 
 
 Of course, this structure will change, and chapters will be added, such as possible mobile implementations and GANs etc. but this is an initial idea for dissertation structure. 
 Over the next week, I plan to type up an initial draft for the motivation and project aims/research questions.
