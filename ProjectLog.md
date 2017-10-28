@@ -29,8 +29,8 @@ Date | Duration | Summary
 Date | Duration | Summary
 ------------ | ------------- | -------------
 12/10/2017 | 2 Hours | Started considering what variables should be considered invariant to the convolutional neural network for classifying knots. Image rotation, image brightness and horizontal/vertical flip should definitely be invariants to the knot classification. This is because knots should be identified whatever the rotation, orientation or brightness of a photograph.
-13/10/2017 | 1 Hour | Completed a tutorial on training a basic neural network on the Cifar-10 dataset.
-14/10/2017 | 1 Hour | Completed a tutorial on training a convolutional neural network on the Cifar-10 dataset.
+13/10/2017 | 1 Hour | Completed a tutorial on training a basic neural network on the Cifar-10 dataset. (commit: 3ed9858)
+14/10/2017 | 1 Hour | Completed a tutorial on training a convolutional neural network on the Cifar-10 dataset. (commit: 3ed9858)
 15/10/2017 | 2 Hours | Researched the various terms of machine learning, such as classification and  clustering using Michael Nielsen’s Deep Learning book as a reference.
 16/10/2017 & 17/10/2017 | 1 Hour | Started working on the data augmentation tutorial by Francois Chollet found at https://blog.keras.io/building-powerful-image-classification-models-using-very-little-data.html. Generally just figuring out how to successfully build, use and augment a dataset suitable for machine learning applications using Keras.
 18/10/2017 | 1 Hour | Made a private GitHub repository for this project.
