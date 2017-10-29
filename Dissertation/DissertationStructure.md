@@ -6,8 +6,10 @@
   * Motivation
   * Research Questions
 * Background and Related Work
-* Knot Classification
-* Implementation in Keras
+  * Literature Review
+* Scope
+* Implementation
+  * Knot Classification
 * Evaluation
 * Conclusion
   * Future Work
