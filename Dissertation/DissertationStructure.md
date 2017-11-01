@@ -2,6 +2,8 @@
 
 * Title Page
 * Abstract
+* Acknowledgments
+* Contents
 * Introduction 
   * Motivation
   * Research Questions
