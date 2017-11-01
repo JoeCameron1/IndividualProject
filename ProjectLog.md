@@ -60,7 +60,7 @@ Date | Duration | Summary
 30/10/2017 | 1 Hour | Downloaded the dissertation template and added my personal details and dissertation structure to it.
 31/10/2017 | 1 Hour | Gathered data for the Overhand Knot.
 31/10/2017 | 2 Hours | Gathered data for the Bowline Knot, hence completing the data collection for my initial dataset.
-01/11/2017 | 1 Hour | Updated my dissertation structure to include Acknowledgements and Contents Sections.
+01/11/2017 | 1 Hour | Updated my dissertation structure to include Acknowledgements and Contents Sections. Also added an Objectives subsection to the Introduction section.
 
 
 ## Week 6
