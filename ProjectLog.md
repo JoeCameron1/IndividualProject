@@ -51,10 +51,26 @@ Date | Duration | Summary
 
 Date | Duration | Summary
 ------------ | ------------- | -------------
-26/10/2017 | | 
-27/10/2017 | |
-28/10/2017 | |
-29/10/2017 | |
-30/10/2017 | |
-31/10/2017 | |
-01/11/2017 | |
+26/10/2017 | 1 Hour | Updated my dissertation structure (commit: 43e8dac).
+27/10/2017 | 2 Hours | Outlined an official plan for my first dataset of knots (commit: edea2f2). This initial dataset will contain images of five knots. These five knots are, The Overhand Knot, The Fisherman’s Knot, The Reef Knot, The Alpine Butterfly Knot and The Bowline Knot. This has changed from the five knots laid out last week, as I feel it is more important to make an initial dataset that covers five fundamentally important knots of ancient origin, and focus on specific knot variations later on in the classification process.
+28/10/2017 | 2 Hours | Gathered data for the Fisherman’s Knot.
+29/10/2017 | 3 Hours | Conducted thorough background research and discovered many useful journal articles, notably ‘Very Deep Convolutional Networks for Large-Scale Image Recognition’ authored by Simonyan, Karen and Zisserman, Andrew. This article should prove very useful for the knot classifier CNN model.
+29/10/2017 | 2 Hours | Gathered data for the Reef Knot.
+30/10/2017 | 2 Hours | Gathered data for the Alpine Butterfly Knot.
+30/10/2017 | 1 Hour | Downloaded the dissertation template and added my personal details and dissertation structure to it.
+31/10/2017 | 1 Hour | Gathered data for the Overhand Knot.
+31/10/2017 | 2 Hours | Gathered data for the Bowline Knot, hence completing the data collection for my initial dataset.
+01/11/2017 | 1 Hour | Updated my dissertation structure to include Acknowledgements and Contents Sections.
+
+
+## Week 6
+
+Date | Duration | Summary
+------------ | ------------- | -------------
+02/11/2017 | |
+03/11/2017 | |
+04/11/2017 | |
+05/11/2017 | |
+06/11/2017 | |
+07/11/2017 | |
+08/11/2017 | |
