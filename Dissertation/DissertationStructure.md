@@ -4,7 +4,8 @@
 * Abstract
 * Acknowledgments
 * Contents
-* Introduction 
+* Introduction
+  * Objectives
   * Motivation
   * Research Questions
 * Background and Related Work
