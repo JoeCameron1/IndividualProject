@@ -67,10 +67,22 @@ Date | Duration | Summary
 
 Date | Duration | Summary
 ------------ | ------------- | -------------
-02/11/2017 | |
-03/11/2017 | |
-04/11/2017 | |
-05/11/2017 | |
-06/11/2017 | |
-07/11/2017 | |
-08/11/2017 | |
+02/11/2017 | 1 Hour | Gathered data for the Overhand Knot, this time with a non-reflective background.
+03/11/2017 | 1 Hour | Gathered data for the Alpine Butterfly Knot, this time with a non-reflective background.
+06/11/2017 | 1 Hour | Considered 5 new knots to add to my initial dataset. These knots are, the Figure-8 Loop, the Clove-Hitch Knot, the Savoy Knot, the Flemish Bend Knot and the Slip Knot.
+07/11/2017 | 2 Hours | Wrote a bash script for resizing images within a dataset.
+08/11/2017 | 2 Hours | Wrote a python script, called 'ResizeDataset.py', for resizing images within a dataset. This python script replaces the previous bash script as it is more portable between different OS environments. It is important automate the process of data compression for everyone who wants to use my software.
+
+
+## Week 7
+
+Date | Duration | Summary
+------------ | ------------- | -------------
+09/11/2017 | 2 Hours | Fully tested my python script for resizing images within a dataset. Subsequently committed the script to my repository (commit: 8af2663).
+09/11/2017 | 1 Hour | Resized my initial dataset using my python script 'ResizeDataset.py' and committed this resized dataset to my repository (commit: 21e2f38).
+10/11/2017 | |
+11/11/2017 | |
+12/11/2017 | |
+13/11/2017 | |
+14/11/2017 | |
+15/11/2017 | |
