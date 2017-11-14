@@ -80,9 +80,22 @@ Date | Duration | Summary
 ------------ | ------------- | -------------
 09/11/2017 | 2 Hours | Fully tested my python script for resizing images within a dataset. Subsequently committed the script to my repository (commit: 8af2663).
 09/11/2017 | 1 Hour | Resized my initial dataset using my python script 'ResizeDataset.py' and committed this resized dataset to my repository (commit: 21e2f38).
-10/11/2017 | |
-11/11/2017 | |
-12/11/2017 | |
-13/11/2017 | |
-14/11/2017 | |
+10/11/2017 | 2 Hours | Started writing a python script, using Keras and Tensorflow, that can train a neural network to classify five different knots using my initial dataset uploaded to this repository previously with commit 21e2f38. This script was written with inspiration from all the previous Keras tutorials I completed.
+11/11/2017 | 2 Hours | Thoroughly reviewing all meeting minutes collected from meetings with my supervisor John. Uploaded these minutes to this repository.
+13/11/2017 | 5 Hours | Continuing with my classification script. Started training my CNN with my dataset, but an accuracy of 25% was consistently yielded. After many hours of debugging, the issue was not found.
+14/11/2017 | 3 Hours | Finally solved the issue in my classification script. First, I had to change all classification modes from 'binary' to 'categorical', this allows for multi-class classification, which is essential as I want to classify five different knots. Second, I had to change the last activation layer from 'sigmoid' to 'softmax' and change its output shape from '(None, 1)' to '(None, 5)'. Again, this all allows for multi-class classification, specifically five-class classification. After these changes, the CNN started to show great increases in accuracy, thus it was beginning to learn. Committed this classification script to this repository (commit: c0b6406).
+14/11/2017 | 2 Hours | Conducted experimentation on my CNN for knot classification, and wrote a document to explain the results of the experiments and the knot classifier itself. Subsequently, I committed the document to this repository (commit: 02d41bf).
 15/11/2017 | |
+
+
+## Week 8
+
+Date | Duration | Summary
+------------ | ------------- | -------------
+16/11/2017 | |
+17/11/2017 | |
+18/11/2017 | |
+19/11/2017 | |
+20/11/2017 | |
+21/11/2017 | |
+22/11/2017 | |
