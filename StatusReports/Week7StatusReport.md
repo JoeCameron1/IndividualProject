@@ -9,7 +9,9 @@ For my specific classification problem, it became apparent that I must tailor a 
 First, I created my own data augmentation generator using the ImageDataGenerator Keras class. 
 Next, I created a network model to perform 5-class classification, where each class represents a type of knot I wish to classify. 
 Eventually, I managed to successfully train a convolutional neural network to classify knots with an accuracy of 80% over 20 epochs and 90% over 50 epochs. 
-For classification training over 50 epochs, the classifier was initially only 20% accurate on the first epoch, but showed significant increases in accuracy over every subsequent epoch, eventually reaching approximately 90% on the 50th epoch, thus showing explicit learning. 
+For classification training over 50 epochs, the classifier was initially only 20% accurate on the first epoch, but showed significant increases in accuracy over every subsequent epoch, eventually reaching approximately 90% on the 50th epoch, thus showing explicit learning.
+A markdown document named 'ClassifierDescription.md' has been committed to the 'KnotClassifier' directory of this repository.
+This document outlines the specific results and terminal output of this knot classifier after the training methods described above.
 Obviously, the training and validation datasets used for this classifier have influenced the high accuracy, and the datasets must be improved and expanded for future classifiers, but these promising results have positively confirmed that I seem to be following the right trajectory, concerning my datasets, data augmentation and Keras model.
 
 On an administrative note, I have also decided to now add minutes from weekly supervision meetings to the repository for easy access.
