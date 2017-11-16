@@ -85,7 +85,6 @@ Date | Duration | Summary
 13/11/2017 | 5 Hours | Continuing with my classification script. Started training my CNN with my dataset, but an accuracy of 25% was consistently yielded. After many hours of debugging, the issue was not found.
 14/11/2017 | 3 Hours | Finally solved the issue in my classification script. First, I had to change all classification modes from 'binary' to 'categorical', this allows for multi-class classification, which is essential as I want to classify five different knots. Second, I had to change the last activation layer from 'sigmoid' to 'softmax' and change its output shape from '(None, 1)' to '(None, 5)'. Again, this all allows for multi-class classification, specifically five-class classification. After these changes, the CNN started to show great increases in accuracy, thus it was beginning to learn. The CNN was now yielding an accuracy of up to 95%. Committed this classification script to this repository (commit: c0b6406).
 14/11/2017 | 2 Hours | Conducted experimentation on my CNN for knot classification, and wrote a document to explain the results of the experiments and the knot classifier itself. Subsequently, I committed the document to this repository (commit: 02d41bf).
-15/11/2017 | |
 
 
 ## Week 8
