@@ -98,7 +98,8 @@ Date | Duration | Summary
 20/11/2017 | 1 Hour | Gathered data for the Bowline Knot on a non-reflective background, hence completing my second dataset.
 21/11/2017 | 2 Hours | Gathered/Downloaded images of the five knots in order to create a validation dataset that is completely separate from the dataset I am creating.
 21/11/2017 | 1 Hour | Ran my classification script, this time training the CNN on my complete initial dataset, and validating on the 'wild' dataset I created the previous day. After 50 epochs, the classification CNN achieved an accuracy of 90%.
-22/11/2017 | 2 Hours | Making adjustments to my classification script by changing my Keras model. I increased the batch_size from 4 to 8, this showed an increase in accuracy from approximately 90% to approximately 95%.
+21/11/2017 | 1 Hour | Experimented with the optimizer function in my model.compile method within my classification script. Initially, I changed the optimizer function from rmsprop to adam, although rmsprop seemed to outperform adam consistently. I will have to spend more time fully understanding optimizer functions next week. 
+22/11/2017 | 2 Hours | Making adjustments to my classification script by changing my Keras model. I increased the batch_size from 4 to 8, this showed an increase in accuracy from approximately 90% to approximately 95%. Next, I experimented with normalisation layers and Gaussian noise layers. Gaussian noise appeared to slightly improve accuracy, although normalisation layers did the opposite. I will also have to spend time next week exploring these concepts further.
 
 
 ## Week 9
