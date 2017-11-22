@@ -91,10 +91,24 @@ Date | Duration | Summary
 
 Date | Duration | Summary
 ------------ | ------------- | -------------
-16/11/2017 | |
-17/11/2017 | |
-18/11/2017 | |
-19/11/2017 | |
-20/11/2017 | |
-21/11/2017 | |
-22/11/2017 | |
+16/11/2017 | 1 Hour | Gathered data for the Fisherman's Knot on a non-reflective background, for my second dataset.
+17/11/2017 | 1 Hour | Gathered data for the Reef Knot on a non-reflective background.
+18/11/2017 | 1 Hour | Gathered data for the Overhand Knot on a non-reflective background.
+19/11/2017 | 1 Hour | Gathered data for the Alpine Butterfly Knot on a non-reflective background.
+20/11/2017 | 1 Hour | Gathered data for the Bowline Knot on a non-reflective background, hence completing my second dataset.
+21/11/2017 | 2 Hours | Gathered/Downloaded images of the five knots in order to create a validation dataset that is completely separate from the dataset I am creating.
+21/11/2017 | 1 Hour | Ran my classification script, this time training the CNN on my complete initial dataset, and validating on the 'wild' dataset I created the previous day. After 50 epochs, the classification CNN achieved an accuracy of 90%.
+22/11/2017 | 2 Hours | Making adjustments to my classification script by changing my Keras model. I increased the batch_size from 4 to 8, this showed an increase in accuracy from approximately 90% to approximately 95%.
+
+
+## Week 9
+
+Date | Duration | Summary
+------------ | ------------- | -------------
+23/11/2017 | |
+24/11/2017 | |
+25/11/2017 | |
+26/11/2017 | |
+27/11/2017 | |
+28/11/2017 | |
+29/11/2017 | |
