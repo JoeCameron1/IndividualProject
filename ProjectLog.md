@@ -106,10 +106,20 @@ Date | Duration | Summary
 
 Date | Duration | Summary
 ------------ | ------------- | -------------
-23/11/2017 | |
-24/11/2017 | |
-25/11/2017 | |
-26/11/2017 | |
-27/11/2017 | |
-28/11/2017 | |
-29/11/2017 | |
+23/11/2017 | 1 Hour | Trained my CNN model on my wild validation set and validated the network on my training set, effectively flipping the datasets. This provides more insight to the behaviour of my CNN. I managed to obtain a 90% accuracy with this.
+27/11/2017 | 2 Hours | Gathered more data to add to my wild dataset from ImageNet and Google Images.
+28/11/2017 | 2 Hours | Gathered data for my dataset. These images consisted of knots and various backgrounds along with knots tied in dental floss. The objective of this is to find the limitations of my knot classifier.
+29/11/2017 | 2 Hours | Experimenting with the addition of dropout layers to my CNN model.
+
+
+## Week 10
+
+Date | Duration | Summary
+------------ | ------------- | -------------
+30/11/2017 | |
+01/12/2017 | |
+02/12/2017 | |
+03/12/2017 | |
+04/12/2017 | |
+05/12/2017 | |
+06/12/2017 | |
