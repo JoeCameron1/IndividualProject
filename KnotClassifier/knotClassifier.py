@@ -18,6 +18,7 @@ from keras.preprocessing.image import ImageDataGenerator
 from keras.models import Sequential
 from keras.layers import Conv2D, MaxPooling2D
 from keras.layers import Activation, Dropout, Flatten, Dense
+from keras.layers.noise import GaussianNoise
 from keras import backend as K
 
 # -----------------------------------------------------------
@@ -34,7 +35,7 @@ validation_data_dir = 'dataResized/validation'
 nb_train_samples = 192
 nb_validation_samples = 96
 epochs = 50
-batch_size = 4
+batch_size = 8
 
 if K.image_data_format() == 'channels_first':
     input_shape = (3, img_width, img_height)
@@ -60,6 +61,7 @@ model.add(MaxPooling2D(pool_size=(2, 2)))
 
 model.add(Flatten())
 model.add(Dense(64))
+model.add(GaussianNoise(0.2))
 model.add(Activation('relu'))
 model.add(Dropout(0.5))
 model.add(Dense(5))
