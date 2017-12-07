@@ -18,5 +18,9 @@ The meeting then concluded with a discussion on what my plans for the second sem
 I initially indicated that I am very interested in working with GANs to reproduce knots of different tensions or different materials.
 John agreed that this would be very interesting and cool, although he also suggested that I could focus on recovering the knot topology using a mathematical construct.
 For example, I could give every knot mathematical notation, and then along with images, the GAN could also output the mathematical notation, thus indicating its recovery of knot topology.
+I also conveyed that I would like to write/think about the dissertation over the Christmas break.
+John agreed, suggesting that I also think about analysis and evaluation.
+John suggested that I look up epoch error curves on ImageNet for some statistical evaluation.
+Although, John stressed that it is more important to think about answering specific research questions, and providing graphs that can answer those research questions.
 We both agreed that I should focus on gathering/finishing my dataset collection before Christmas and write the dissertaion/focus on GANs next semester.
 
