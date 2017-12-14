@@ -116,10 +116,31 @@ Date | Duration | Summary
 
 Date | Duration | Summary
 ------------ | ------------- | -------------
-30/11/2017 | |
-01/12/2017 | |
-02/12/2017 | |
-03/12/2017 | |
-04/12/2017 | |
-05/12/2017 | |
-06/12/2017 | |
+30/11/2017 | 2 Hours | Collecting more photos from the internet to add to my 'wild' dataset.
+01/12/2017 | 3 Hours | Started collecting data for my own 'wild' dataset. This dataset contains my images of knots that are not in a controlled environment. Furthermore, there is a variety of material used to tie the knots.
+04/12/2017 | 3 Hours | Finished collecting data for my 'wild' dataset.
+05/12/2017 | 2 Hours | Started collecting data for my own dataset covering the extra five knots I selected earlier. These knots are, the Figure-8 Loop, the Clove-Hitch Knot, the Savoy Knot (Figure-8 Knot), the Flemish Bend Knot and the Slip Knot. Specifically, I gathered data for the Figure-8 Loop. 
+06/12/2017 | 6 Hours | Started getting familiar with Blender (and the Blender Python API for scripting), which I plan to use in order to create a huge volume of data with which my neural networks can train on.
+
+
+## Week 11
+
+Date | Duration | Summary
+------------ | ------------- | -------------
+07/12/2017 | 1 Hour | Continued collecting more data for the 'wild' dataset of images from the internet.
+08/12/2017 | 2 Hours | Gathered data for the Clove-Hitch Knot.
+11/12/2017 | 4 Hours | Gathered data for the Figure-8 Knot, the Flemish Bend Knot and the Slip Knot.
+12/12/2017 | 5 Hours | Further experimentation with scripting in Blender, specifically creating the 3D models of the knots and writing scripts to capture photos from different angles. This script still needs further improvement however.
+
+
+## Week 12
+
+Date | Duration | Summary
+------------ | ------------- | -------------
+14/12/2017 | 4 Hours | Conducted research on t-SNE (Geoffrey Hinton and Laurens van der Maaten) and visulaisation of deep learning data. Started experimenting with visualisation techniques on my own knot classifier.
+15/12/2017 | | 
+16/12/2017 | | 
+17/12/2017 | |
+18/12/2017 | |
+19/12/2017 | |
+20/12/2017 | |
