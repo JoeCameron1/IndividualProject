@@ -1,4 +1,4 @@
-# Week 3 Meeting Minutes
+# Week 3 Meeting Minutes - 12/10/2017
 
 John and I started the meeting with discussion over the progress of week 2. 
 As I mentioned in my status report, I told John that the installation of Keras and Tensorflow had gone smoothly.

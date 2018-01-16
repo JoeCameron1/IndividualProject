@@ -1,4 +1,4 @@
-# Week 11 Meeting Minutes
+# Week 11 Meeting Minutes - 07/12/2017
 
 The meeting started with a review of last week's progress.
 John was happy to hear that I had expanded all my datasets, and reccommended that I continue doing so until Christmas.

@@ -1,4 +1,4 @@
-# Week 1 Meeting Minutes
+# Week 1 Meeting Minutes - 28/09/2017
 
 First, it was established that meetings would occur at 9:30am on a weekly basis. 
 

@@ -1,4 +1,4 @@
-# Week 2 Meeting Minutes
+# Week 2 Meeting Minutes - 05/10/2017
 
 Following from the last meeting, John and I first discussed what I had summarised in the Week 1 status report.
 I downloaded Zotero and relayed how useful it has been for managing references.

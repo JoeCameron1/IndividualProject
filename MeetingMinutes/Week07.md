@@ -1,4 +1,4 @@
-# Week 7 Meeting Minutes
+# Week 7 Meeting Minutes - 09/11/2017
 
 Over the past week, I wrote a python script that could resize images within a dataset, thus allowing full transparency in the process.
 I started the meeting by explaining to John why I decided to write the script in python instead of bash.

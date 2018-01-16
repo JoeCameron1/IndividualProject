@@ -1,4 +1,4 @@
-# Week 9 Meeting Minutes
+# Week 9 Meeting Minutes - 23/11/2017
 
 The meeting started with an overview of what I had achieved over the past week.
 John noted that my results for classification of the wild dataset were very good.

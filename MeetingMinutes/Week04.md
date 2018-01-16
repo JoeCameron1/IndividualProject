@@ -1,4 +1,4 @@
-# Week 4 Meeting Minutes
+# Week 4 Meeting Minutes - 19/10/2017
 
 First, we discussed my progress over the previous week. 
 I first stated that I had set-up my git repository and that it will also be hosted on GitHub as a private repository.

@@ -1,4 +1,4 @@
-# Week 6 Meeting Minutes
+# Week 6 Meeting Minutes - 02/11/2017
 
 At the start of the meeting, I showed my initial dataset to John.
 John said that the images were very good, and that the structure of the dataset was good.

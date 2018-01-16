@@ -1,4 +1,4 @@
-# Week 8 Meeting Minutes
+# Week 8 Meeting Minutes - 16/11/2017
 
 The meeting started with an overview of goals achieved in week 7.
 I started by explaining my knot classifier, and the results it achieved on my initial dataset.

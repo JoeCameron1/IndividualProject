@@ -1,4 +1,4 @@
-# Week 10 Meeting Minutes
+# Week 10 Meeting Minutes - 30/11/2017
 
 The meeting started with a review of the work I had done over the past week.
 John was happy to hear that I had obtained a 90% accuracy when flipping the training and validation datasets, as this shows that the classifier is actually working.

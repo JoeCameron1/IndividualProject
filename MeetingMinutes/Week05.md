@@ -1,4 +1,4 @@
-# Week 5 Meeting Minutes
+# Week 5 Meeting Minutes - 26/10/2017
 
 During the previous week, I drafted a plan for the dataset, and so we agreed that over the next week I can start gathering data for the five knots I identified.
 I then asked John how I should upload my dataset to the repo, whether I should gzip the images or not?
