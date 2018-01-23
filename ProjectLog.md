@@ -133,14 +133,51 @@ Date | Duration | Summary
 12/12/2017 | 5 Hours | Further experimentation with scripting in Blender, specifically creating the 3D models of the knots and writing scripts to capture photos from different angles. This script still needs further improvement however.
 
 
-## Week 12
+## Christmas Break
 
 Date | Duration | Summary
 ------------ | ------------- | -------------
-14/12/2017 | 4 Hours | Conducted research on t-SNE (Geoffrey Hinton and Laurens van der Maaten) and visulaisation of deep learning data. Started experimenting with visualisation techniques on my own knot classifier.
-15/12/2017 | | 
-16/12/2017 | | 
-17/12/2017 | |
-18/12/2017 | |
-19/12/2017 | |
-20/12/2017 | |
+14/12/2017 | 4 Hours | Conducted research on t-SNE (Geoffrey Hinton and Laurens van der Maaten) and visualisation of deep learning data. Started experimenting with visualisation techniques on my own knot classifier.
+15/12/2017 | 2 Hours | Wrote my end-of-semester-1 status report. 
+18/12/2017 | 2 Hours | Began gathering data for the extra five knots, this time with a non-reflective background. I gathered data for the Figure-8 Knot first.
+19/12/2017 | 2 Hours | Gathered data for the Figure-8 Loop.
+20/12/2017 | 7 Hours | Figured out how to control and take photos with the camera in Blender via a python script.
+04/01/2018 | 2 Hours | Gathered data for the Clove Hitch.
+05/01/2018 | 2 Hours | Gathered data for the Slip Knot.
+06/01/2018 | 2 Hours | Gathered data for the Flemish Bend and completed data collection for the non-reflective controlled dataset.
+
+
+## Week 12
+
+Date | Duration | Summary
+------------ | ------------- | ------------- 
+14/01/2018 | 4 Hours | Trying to model knots such as the Figure-8 loop in Blender.
+16/01/2018 | 8 Hours | Trying to model knots such as the Overhand Knot and the Flemish Bend in Blender, however it is a very long a tedious process.
+17/01/2018 | 1 Hour | Committed my datasets created over the Christmas Break.
+
+
+## Week 13
+
+Date | Duration | Summary
+------------ | ------------- | -------------
+18/01/2018 | 4 Hours | Researching the Keras Functional API that will allow me to create multi-input/multi-output models, instead of just sequential models. 
+19/01/2018 | 5 Hours | Trying to implement TSNE visualisation to my python scripts, although this will require more time and understanding. 
+20/01/2018 | 4 Hours | Expanding my classifier to classify 10 knots. Initial results show a 90% training accuracy.
+21/01/2018 | 6 Hours | Exploring implementations of GANS in Keras. I plan to make a GAN that can synthesise MNIST images this week.
+22/01/2018 | 5 Hours | Yet more TSNE research.
+23/01/2018 | 4 Hours | Developed my first GAN that can synthesise images based on the MNIST dataset!
+23/01/2018 | 1 Hour | Developed and commited new code to plot the training history of my models.
+24/01/2018 | |
+
+
+## Week 14
+
+Date | Duration | Summary
+------------ | ------------- | -------------
+25/01/2018 | | 
+26/01/2018 | | 
+27/01/2018 | |
+28/01/2018 | | 
+29/01/2018 | | 
+30/01/2018 | | 
+31/01/2018 | | 
