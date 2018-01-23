@@ -21,6 +21,8 @@ from keras.layers import Activation, Dropout, Flatten, Dense
 from keras.layers.noise import GaussianNoise
 from keras import backend as K
 
+import matplotlib.pyplot as plt
+
 # -----------------------------------------------------------
 
 # GLOBAL VARIABLES
@@ -109,7 +111,7 @@ validation_generator = test_datagen.flow_from_directory(
     class_mode='categorical')
 
 # MODEL FITTING
-model.fit_generator(
+fit = model.fit_generator(
     train_generator,
     steps_per_epoch=nb_train_samples // batch_size,
     epochs=epochs,
@@ -118,3 +120,32 @@ model.fit_generator(
 
 # SAVE WEIGHTS
 model.save_weights('first_try.h5')
+
+# -----------------------------------------------------------
+
+# PLOT TRAINING HISTORY
+
+historyFigure, (left, right) = plt.subplots(ncols=2, figsize=(20,10))
+
+# Plot the training history loss
+def plotHistoryLoss(fit):
+    left.plot(fit.history['loss'],label="Training Loss")
+    left.plot(fit.history['val_loss'],label="Validation Loss")
+    left.set_title('Model Loss')
+    left.set_xlabel('Epoch')
+    left.set_ylabel('Loss')
+    left.legend(loc='upper left')
+
+# Plot the training history accuracy
+def plotHistoryAccuracy(fit):
+    right.plot(fit.history['acc'],label="Training Accuracy")
+    right.plot(fit.history['val_acc'],label="Validation Accuracy")
+    right.set_title('Model Accuracy')
+    right.set_xlabel('Epoch')
+    right.set_ylabel('Accuracy')
+    right.legend(loc='upper left')
+
+plotHistoryLoss(fit)
+plotHistoryAccuracy(fit)
+historyFigure.savefig('trainingHistory.jpg')
+plt.close()
