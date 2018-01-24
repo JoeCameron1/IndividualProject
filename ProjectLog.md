@@ -167,7 +167,9 @@ Date | Duration | Summary
 22/01/2018 | 5 Hours | Yet more TSNE research.
 23/01/2018 | 4 Hours | Developed my first GAN that can synthesise images based on the MNIST dataset!
 23/01/2018 | 1 Hour | Developed and commited new code to plot the training history of my models.
-24/01/2018 | |
+23/01/2018 | 6 Hours | Began developing an iOS app, where I can use my Keras classification models in real-time. This makes sense, because users are most likely to use a mobile device to undertake such a task (usually outdoors with limited access to a desktop computer). So far, I have developed an application that can capture images from the camera to be sent as an input to a CoreML model.
+23/01/2018 | 2 Hours | Wrote a python script that can convert Keras models saved as HDF5 files into CoreML models that can be used in iOS apps.
+24/01/2018 | 6 Hours | Finished an initial version of the iOS Knot Classifier app. I managed to successfully convert a Keras HDF5 model into a CoreML model, and pass real-time camera footage from an iPhone as an input to my model. A label on the interface updates with the classification identifier (label) and a percentage representing the model's certainty of the classification.
 
 
 ## Week 14
