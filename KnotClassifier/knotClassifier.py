@@ -34,10 +34,10 @@ img_width, img_height = 150, 150
 # Global variables that are directory specific
 train_data_dir = 'dataResized/train'
 validation_data_dir = 'dataResized/validation'
-nb_train_samples = 192
-nb_validation_samples = 96
+nb_train_samples = 384
+nb_validation_samples = 192
 epochs = 50
-batch_size = 8
+batch_size = 16
 
 if K.image_data_format() == 'channels_first':
     input_shape = (3, img_width, img_height)
@@ -66,7 +66,7 @@ model.add(Dense(64))
 model.add(GaussianNoise(0.2))
 model.add(Activation('relu'))
 model.add(Dropout(0.5))
-model.add(Dense(5))
+model.add(Dense(10))
 model.add(Activation('softmax'))
 
 model.compile(loss='categorical_crossentropy',
