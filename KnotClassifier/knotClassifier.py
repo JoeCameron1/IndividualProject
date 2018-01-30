@@ -118,8 +118,8 @@ fit = model.fit_generator(
     validation_data=validation_generator,
     validation_steps=nb_validation_samples // batch_size)
 
-# SAVE WEIGHTS
-model.save_weights('first_try.h5')
+# SAVE MODEL (INCLUDING WEIGHTS)
+model.save('first_try.h5')
 
 # -----------------------------------------------------------
 
