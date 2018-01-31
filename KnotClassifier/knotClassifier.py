@@ -19,9 +19,15 @@ from keras.models import Sequential
 from keras.layers import Conv2D, MaxPooling2D
 from keras.layers import Activation, Dropout, Flatten, Dense
 from keras.layers.noise import GaussianNoise
+from keras.utils import np_utils
 from keras import backend as K
 
+import numpy as np
+
 import matplotlib.pyplot as plt
+
+from sklearn.decomposition import PCA
+from sklearn.manifold import TSNE
 
 # -----------------------------------------------------------
 
@@ -120,6 +126,38 @@ fit = model.fit_generator(
 
 # SAVE MODEL (INCLUDING WEIGHTS)
 model.save('first_try.h5')
+
+# -----------------------------------------------------------
+
+# TSNE VISUALISATION
+
+predictions = model.predict_generator(validation_generator,
+                                          steps=nb_validation_samples)
+
+# First, reduce to 10 dimensions with PCA
+pca = PCA(n_components=10)
+pca_results = pca.fit_transform(predictions)
+print('Variance PCA: {}'.format(np.sum(pca.explained_variance_ratio_)))
+
+# Next, run t-SNE on the PCA results to obtain a 2D plot
+tsne = TSNE(n_components=2, perplexity=30, learning_rate=250, verbose = 1)
+tsne_results = tsne.fit_transform(pca_results[:5000])
+
+# Convert to binary class matrix
+categoricalClasses = np_utils.to_categorical(validation_generator.classes[:5000], num_classes = 10)
+# Create a figure where each class has a unique colour
+colour_map = np.argmax(categoricalClasses, axis=1)
+tsneFigure = plt.figure(figsize=(10,10))
+for colour in range(10):
+    indices = np.where(colour_map==colour)
+    indices = indices[0]
+    plt.scatter(tsne_results[indices,0],
+                tsne_results[indices,1],
+                label=colour)
+plt.legend()
+plt.title('t-SNE Visualisation')
+tsneFigure.savefig('tsneVisualisation.jpg')
+plt.close()
 
 # -----------------------------------------------------------
 
