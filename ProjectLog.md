@@ -176,10 +176,22 @@ Date | Duration | Summary
 
 Date | Duration | Summary
 ------------ | ------------- | -------------
-25/01/2018 | | 
-26/01/2018 | | 
-27/01/2018 | |
-28/01/2018 | | 
-29/01/2018 | | 
-30/01/2018 | | 
-31/01/2018 | | 
+25/01/2018 | 3 Hours | Noticed that my models tended to significantly overfit to the training data, meaning a high training accuracy is achieved, but a low validation accuracy is also a result. Began to reorganise my training and validation datasets to combat this. 
+26/01/2018 | 3 Hours | Updated my Keras to CoreML model conversion script to now also rescale images before being sent to my convolutional neural network. I then committed this script to the repository. 
+27/01/2018 | 4 Hours | Conducted research on TensorBoard, and how I could possibly use TensorBoard to visualise my models in the future. Figured out how to do this via Keras callbacks, but I still need to figure out how to include embeddings which would allow me to visualise a model's learned representation via t-SNE. 
+29/01/2018 | 4 Hours | Conducted some experimentation with my training my models on some newly rearranged datasets, and managed to plot graphs that show the models do not overfit when trained on all data. Before, the models began to overfit when trained and validated on different lighting conditions within the images. However, the new dataset trains on images with all lighting conditions and the model's training and validation accuracy is approximately equal. 
+30/01/2018 | 6 Hours | Figured out a way to successfully implement t-SNE visualisation for a model's learned representation. The code to achieve this is located within the 'knotClassifier.py' script. 
+31/01/2018 | 3 Hours | Implemented a quick CNN that can classify the tension a knot is tied at. This is a possible stepping stone to creating a GAN that can generate images of knots at different tensions in the future, but I must still try and implement one single CNN that can achieve all of this. 
+
+
+## Week 15
+
+Date | Duration | Summary
+------------ | ------------- | -------------
+01/02/2018 | | 
+02/02/2018 | | 
+03/02/2018 | |
+04/02/2018 | | 
+05/02/2018 | | 
+06/02/2018 | | 
+07/02/2018 | |
