@@ -97,8 +97,16 @@ train_datagen = ImageDataGenerator(
     horizontal_flip=True)
 
 # Testing Augmentation Configuration
-# Only rescales images for testing purposes
-test_datagen = ImageDataGenerator(rescale=1. / 255)
+# Rotates an image for every degree
+# Rescales images
+# Flips images horizontally
+# Very important for the validation data to have this augmentation too
+test_datagen = ImageDataGenerator(
+    rotation_range=1,
+    rescale=1. / 255,
+    shear_range=0.2,
+    zoom_range=0.2,
+    horizontal_flip=True)
 
 # -----------------------------------------------------------
 
