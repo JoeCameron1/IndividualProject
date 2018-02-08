@@ -188,10 +188,22 @@ Date | Duration | Summary
 
 Date | Duration | Summary
 ------------ | ------------- | -------------
-01/02/2018 | | 
-02/02/2018 | | 
-03/02/2018 | |
-04/02/2018 | | 
-05/02/2018 | | 
-06/02/2018 | | 
-07/02/2018 | |
+01/02/2018 | 2 Hours | Validating that my t-SNE implementation works by experimenting it on the MNIST dataset. Thankfully, noticeable clusters began appearing. 
+02/02/2018 | 6 Hours | Experimented my CNN with separate training and validation data and noticed significant overfitting. Gradually, I adjusted my model's architecture to include more dropout and batch normalization. This improved the validation accuracy from 20% to 40%. 
+03/02/2018 | 4 Hours | Wrote a first draft of my dissertation's introduction. I also spent significant time planning/updating my dissertation's structure. 
+05/02/2018 | 6 Hours | In a bid to improve my CNN's performance, I implemented transfer learning by adding the InceptionV3 model on top of a simple dense layered CNN. However, this did not seem to improve the performance. 
+06/02/2018 | 3 Hours | Started building an autocoder to reconstruct my knot dataset images. 
+07/02/2018 | 5 Hours | Finished implementing the initial version of the autoencoder.
+
+
+## Week 16
+
+Date | Duration | Summary
+------------ | ------------- | -------------
+08/02/2018 | | 
+09/02/2018 | | 
+10/02/2018 | |
+11/02/2018 | | 
+12/02/2018 | | 
+13/02/2018 | | 
+14/02/2018 | |
