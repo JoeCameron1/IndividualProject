@@ -57,7 +57,7 @@ else:
 model = Sequential()
 
 # Gaussian Noise as input
-noise = (1.0/255) * 0.1
+noise = (1.0/255) * 0.2
 model.add(GaussianNoise(noise, input_shape=input_shape))
 
 model.add(Conv2D(32, (3, 3)))
