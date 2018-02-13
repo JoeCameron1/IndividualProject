@@ -93,7 +93,7 @@ print model.summary()
 # Rescales images
 # Flips images horizontally
 train_datagen = ImageDataGenerator(
-    rotation_range=1,
+    rotation_range=360,
     rescale=1. / 255,
     shear_range=0.2,
     zoom_range=0.2,
