@@ -42,8 +42,8 @@ train_data_dir = 'dataResized/train'
 validation_data_dir = 'dataResized/validation'
 nb_train_samples = 384
 nb_validation_samples = 192
-epochs = 50
-batch_size = 16
+epochs = 100
+batch_size = 32
 
 if K.image_data_format() == 'channels_first':
     input_shape = (3, img_width, img_height)
@@ -55,7 +55,12 @@ else:
 # CNN MODEL
 
 model = Sequential()
-model.add(Conv2D(32, (3, 3), input_shape=input_shape))
+
+# Gaussian Noise as input
+noise = (1.0/255) * 0.1
+model.add(GaussianNoise(noise, input_shape=input_shape))
+
+model.add(Conv2D(32, (3, 3)))
 model.add(Activation('relu'))
 model.add(MaxPooling2D(pool_size=(2, 2)))
 
@@ -63,16 +68,16 @@ model.add(Conv2D(32, (3, 3)))
 model.add(Activation('relu'))
 model.add(MaxPooling2D(pool_size=(2, 2)))
 
-model.add(Dropout(0.5))
+#model.add(Dropout(0.5))
 
 model.add(Conv2D(64, (3, 3)))
 model.add(Activation('relu'))
-model.add(BatchNormalization())
+#model.add(BatchNormalization())
 model.add(MaxPooling2D(pool_size=(2, 2)))
+model.add(Dropout(0.5))
 
 model.add(Flatten())
 model.add(Dense(64))
-model.add(GaussianNoise(0.2))
 model.add(Activation('relu'))
 model.add(Dropout(0.5))
 model.add(Dense(10))
