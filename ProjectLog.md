@@ -200,10 +200,30 @@ Date | Duration | Summary
 
 Date | Duration | Summary
 ------------ | ------------- | -------------
-08/02/2018 | | 
-09/02/2018 | | 
-10/02/2018 | |
-11/02/2018 | | 
-12/02/2018 | | 
-13/02/2018 | | 
-14/02/2018 | |
+08/02/2018 | 2 Hours | Fixed a small bug in my data augmentation. I discovered that the images were not being rotated. Once this bug was fixed, I noticed an immediate increase in performance, and a massive improvement away from overfitting. 
+09/02/2018 | 5 Hours | Tweaking aspects of my convolutional neural network in order to maximise performance. 
+10/02/2018 | 6 Hours | Writing content on image classification for my Background & Scope chapter in my dissertation.  
+14/02/2018 | 5 Hours | Expanding my convolutional neural network's architecture. The number of training parameters increased from 1,000,000 to 10,000,000, but I did not notice any significant increase in network performance. This may be due to training on a CPU instead of a GPU. 
+
+
+## Week 17
+
+Date | Duration | Summary
+------------ | ------------- | -------------
+15/02/2018 | 3 Hours | Managed to write some more content for the Background & Scope chapter of my dissertation, focusing on core machine learning principles. 
+16/02/2018 | 3 Hours | Managed to write some more content for the Background & Scope chapter of my dissertation, focusing on core machine learning principles.
+18/02/2018 | 3 Hours | Began familiarising myself with Google Colaboratory in order to begin training my neural nets on a GPU.  
+20/02/2018 | 6 Hours | Managed to write some more content for the Background & Scope chapter of my dissertation, focusing on core deep learning principles.
+
+
+## Week 18
+
+Date | Duration | Summary
+------------ | ------------- | -------------
+22/02/2018 | | 
+23/02/2018 | | 
+24/02/2018 | |
+25/02/2018 | | 
+26/02/2018 | | 
+27/02/2018 | | 
+28/02/2018 | |
