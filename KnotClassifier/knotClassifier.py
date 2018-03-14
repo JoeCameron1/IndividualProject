@@ -29,6 +29,9 @@ import matplotlib.pyplot as plt
 from sklearn.decomposition import PCA
 from sklearn.manifold import TSNE
 
+from sklearn.metrics import confusion_matrix
+import itertools
+
 # -----------------------------------------------------------
 
 # GLOBAL VARIABLES
