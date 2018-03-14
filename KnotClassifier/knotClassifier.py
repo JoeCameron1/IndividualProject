@@ -9,6 +9,19 @@
 # and all validation data is in 'datasetResized/validation', simply enter:
 # python knotClassifier.py
 
+# -----------------------------------------------------------
+
+# PARSE ARGUMENTS
+
+import argparse
+
+parser = argparse.ArgumentParser(description='Train a convolutional neural network to classify knots.')
+group = parser.add_mutually_exclusive_group()
+group.add_argument('-a', '--augmentation', action='store_true', help='Use data augmentation')
+group.add_argument('-s', '--small', action='store_true', help='Use small model architecture')
+group.add_argument('-m', '--medium', action='store_true', help='Use medium model architecture')
+group.add_argument('-l', '--large', action='store_true', help='Use large model architecture')
+
 
 # -----------------------------------------------------------
 
