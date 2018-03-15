@@ -1,4 +1,4 @@
-# Week 19 Meeting Minutes - 08/03/2018
+# Week 20 Meeting Minutes - 08/03/2018
 
 The meeting mainly consisted of a review of my dissertation so far.
 Considering the Introduction chapter, John suggested that I add a scope section to the end of the Introduction chapter, where I can formally explain the scope and requirements of the project.
