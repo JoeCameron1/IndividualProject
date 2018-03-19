@@ -20,6 +20,7 @@ group = parser.add_mutually_exclusive_group()
 group.add_argument('-a', '--augmentation', action='store_true', help='Use data augmentation')
 group.add_argument('-s', '--small', action='store_true', help='Use small model architecture')
 group.add_argument('-l', '--large', action='store_true', help='Use large model architecture')
+args = parser.parse_args()
 
 
 # -----------------------------------------------------------
