@@ -72,6 +72,8 @@ else:
 # SMALL CNN MODEL
 if args.small:
     
+    print 'You are using the small CNN model architecture'
+    
     model = Sequential()
     
     model.add(Conv2D(32, (3, 3), input_shape=input_shape))
@@ -106,6 +108,8 @@ if args.small:
 # LARGE CNN MODEL
 elif args.large:
     
+    print 'You are using the large CNN model architecture'
+    
     model = Sequential()
     
     model.add(Conv2D(32, (3, 3), input_shape=input_shape))
@@ -139,6 +143,8 @@ elif args.large:
 
 # MEDIUM CNN MODEL
 else:
+    
+    print 'You are using the medium CNN model architecture'
     
     model = Sequential()
     
