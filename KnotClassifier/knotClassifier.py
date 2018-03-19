@@ -181,33 +181,56 @@ else:
 
 # DATA AUGMENTATION
 
-# Training Augmentation Configuration
-# Rotates an image for every degree
-# Rescales images
-# Modifies shear intensity
-# Modifies zoom
-# Shifts width
-# Shifts height
-# Flips images horizontally
-# Flips images vertically
-train_datagen = ImageDataGenerator(
-    rotation_range=360,
-    rescale=1. / 255,
-    shear_range=0.2,
-    zoom_range=0.3,
-    width_shift_range=0.2,
-    height_shift_range=0.2,
-    horizontal_flip=True,
-    vertical_flip=True
-)
+if args.augmentation:
+    
+    print 'You are using data augmentation'
+    
+    # Training Augmentation Configuration
+    # Rotates an image for every degree
+    # Rescales images
+    # Modifies shear intensity
+    # Modifies zoom
+    # Shifts width
+    # Shifts height
+    # Flips images horizontally
+    # Flips images vertically
+    train_datagen = ImageDataGenerator(
+        rotation_range=360,
+        rescale=1. / 255,
+        shear_range=0.2,
+        zoom_range=0.3,
+        width_shift_range=0.2,
+        height_shift_range=0.2,
+        horizontal_flip=True,
+        vertical_flip=True
+    )
+    
+    # Testing Augmentation Configuration
+    # Only Rescales images
+    # Very important for the validation data to have no augmentation
+    # Enables validation on real data, and not augmented data
+    test_datagen = ImageDataGenerator(
+        rescale=1. / 255
+    )
 
-# Testing Augmentation Configuration
-# Only Rescales images
-# Very important for the validation data to have no augmentation
-# Enables validation on real data, and not augmented data
-test_datagen = ImageDataGenerator(
-    rescale=1. / 255
-)
+# NO DATA AUGMENTATION
+else:
+    
+    print 'You are not using data augmentation'
+    
+    # Training Augmentation Configuration
+    # Only rescales images
+    # No augmentation
+    train_datagen = ImageDataGenerator(
+        rescale=1. /255
+    )
+    
+    # Testing Augmentation Configuration
+    # Only rescales images
+    # No augmentation
+    test_datagen = ImageDataGenerator(
+        rescale=1. /255
+    )
 
 # -----------------------------------------------------------
 
