@@ -72,11 +72,7 @@ else:
 
 model = Sequential()
 
-# Gaussian Noise as input
-noise = (1.0/255) * 0.2
-model.add(GaussianNoise(noise, input_shape=input_shape))
-
-model.add(Conv2D(32, (3, 3)))
+model.add(Conv2D(32, (3, 3), input_shape=input_shape))
 model.add(Activation('relu'))
 model.add(MaxPooling2D(pool_size=(2, 2)))
 
