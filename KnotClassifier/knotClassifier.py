@@ -19,7 +19,6 @@ parser = argparse.ArgumentParser(description='Train a convolutional neural netwo
 group = parser.add_mutually_exclusive_group()
 group.add_argument('-a', '--augmentation', action='store_true', help='Use data augmentation')
 group.add_argument('-s', '--small', action='store_true', help='Use small model architecture')
-group.add_argument('-m', '--medium', action='store_true', help='Use medium model architecture')
 group.add_argument('-l', '--large', action='store_true', help='Use large model architecture')
 
 
@@ -68,38 +67,109 @@ else:
 
 # -----------------------------------------------------------
 
-# CNN MODEL
+# CNN MODELS
 
-model = Sequential()
+# SMALL CNN MODEL
+if args.small:
+    
+    model = Sequential()
+    
+    model.add(Conv2D(32, (3, 3), input_shape=input_shape))
+    model.add(Activation('relu'))
+    model.add(MaxPooling2D(pool_size=(2, 2)))
+    
+    model.add(Conv2D(32, (3, 3)))
+    model.add(Activation('relu'))
+    model.add(MaxPooling2D(pool_size=(2, 2)))
+    
+    #model.add(Dropout(0.5))
+    
+    model.add(Conv2D(64, (3, 3)))
+    model.add(Activation('relu'))
+    #model.add(BatchNormalization())
+    model.add(MaxPooling2D(pool_size=(2, 2)))
+    model.add(Dropout(0.5))
+    
+    model.add(Flatten())
+    model.add(Dense(64))
+    model.add(Activation('relu'))
+    model.add(Dropout(0.5))
+    model.add(Dense(10))
+    model.add(Activation('softmax'))
+    
+    model.compile(loss='categorical_crossentropy',
+                  optimizer='adam',
+                  metrics=['accuracy'])
+    
+    print model.summary()
 
-model.add(Conv2D(32, (3, 3), input_shape=input_shape))
-model.add(Activation('relu'))
-model.add(MaxPooling2D(pool_size=(2, 2)))
+# LARGE CNN MODEL
+elif args.large:
+    
+    model = Sequential()
+    
+    model.add(Conv2D(32, (3, 3), input_shape=input_shape))
+    model.add(Activation('relu'))
+    model.add(MaxPooling2D(pool_size=(2, 2)))
+    
+    model.add(Conv2D(32, (3, 3)))
+    model.add(Activation('relu'))
+    model.add(MaxPooling2D(pool_size=(2, 2)))
+    
+    #model.add(Dropout(0.5))
+    
+    model.add(Conv2D(64, (3, 3)))
+    model.add(Activation('relu'))
+    #model.add(BatchNormalization())
+    model.add(MaxPooling2D(pool_size=(2, 2)))
+    model.add(Dropout(0.5))
+    
+    model.add(Flatten())
+    model.add(Dense(64))
+    model.add(Activation('relu'))
+    model.add(Dropout(0.5))
+    model.add(Dense(10))
+    model.add(Activation('softmax'))
+    
+    model.compile(loss='categorical_crossentropy',
+                  optimizer='adam',
+                  metrics=['accuracy'])
+    
+    print model.summary()
 
-model.add(Conv2D(32, (3, 3)))
-model.add(Activation('relu'))
-model.add(MaxPooling2D(pool_size=(2, 2)))
-
-#model.add(Dropout(0.5))
-
-model.add(Conv2D(64, (3, 3)))
-model.add(Activation('relu'))
-#model.add(BatchNormalization())
-model.add(MaxPooling2D(pool_size=(2, 2)))
-model.add(Dropout(0.5))
-
-model.add(Flatten())
-model.add(Dense(64))
-model.add(Activation('relu'))
-model.add(Dropout(0.5))
-model.add(Dense(10))
-model.add(Activation('softmax'))
-
-model.compile(loss='categorical_crossentropy',
-              optimizer='adam',
-              metrics=['accuracy'])
-
-print model.summary()
+# MEDIUM CNN MODEL
+else:
+    
+    model = Sequential()
+    
+    model.add(Conv2D(32, (3, 3), input_shape=input_shape))
+    model.add(Activation('relu'))
+    model.add(MaxPooling2D(pool_size=(2, 2)))
+    
+    model.add(Conv2D(32, (3, 3)))
+    model.add(Activation('relu'))
+    model.add(MaxPooling2D(pool_size=(2, 2)))
+    
+    #model.add(Dropout(0.5))
+    
+    model.add(Conv2D(64, (3, 3)))
+    model.add(Activation('relu'))
+    #model.add(BatchNormalization())
+    model.add(MaxPooling2D(pool_size=(2, 2)))
+    model.add(Dropout(0.5))
+    
+    model.add(Flatten())
+    model.add(Dense(64))
+    model.add(Activation('relu'))
+    model.add(Dropout(0.5))
+    model.add(Dense(10))
+    model.add(Activation('softmax'))
+    
+    model.compile(loss='categorical_crossentropy',
+                  optimizer='adam',
+                  metrics=['accuracy'])
+    
+    print model.summary()
 
 # -----------------------------------------------------------
 
