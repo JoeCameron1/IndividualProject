@@ -5,9 +5,16 @@
 
 # Script Usage: python knotClassifier.py
 # For example: When this script is in the same directory as a dataset folder named 'dataResized',
-# where all training data is in 'datasetResized/train',
-# and all validation data is in 'datasetResized/validation', simply enter:
-# python knotClassifier.py
+# where all training data is in 'dataResized/train',
+# and all validation data is in 'dataResized/validation', simply enter:
+# python knotClassifier.py to train default the medium convolutional neural network with no data augmentation.
+
+# To train with data augmentation simply add the -a flag like so:
+# python knotClassifier.py -a
+
+# To train either the small or large convolutional neural network instead of the default medium convolutional neural network
+# simply add the corresponding -s flag for the small neural network or the -l flag for the large neural network like so:
+# python knotClassifier.py -a -s or python knotClassifier.py -a -l
 
 # -----------------------------------------------------------
 
