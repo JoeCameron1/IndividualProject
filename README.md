@@ -18,4 +18,4 @@ In total, this software provides the capability to classify ten knots, with the 
 * The Reef Knot
 * The Slip Knot
 
-A controlled dataset, containing images of these ten knots in differing conditions is available on Kaggle at LINK_HERE.
+A controlled dataset, containing images of these ten knots in differing conditions is available on Kaggle at https://www.kaggle.com/josephcameron/10knots
