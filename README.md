@@ -5,8 +5,14 @@ This repository contains the code, log, meeting minutes and status reports for m
 This project's aim is to classify knots based on their topology.
 
 Knot classification is achieved by a convolutional neural network implemented in Keras.
-The convolutional neural network is located within the python script knotClassifier.py located in the KnotClassifier folder.
-In total, this software provides the capability to classify ten knots, with the ten knots being:
+The convolutional neural network training software is located within the python script knotClassifier.py located in the KnotClassifier folder.
+
+Furthermore, an iOS application was developed to serve as an interface to utilise the trained Keras convolutional neural network to predict knots in real-time via an iPhone's camera.
+The iOS application is called The Knot Classifier, and is located within the iOSApp folder as an Xcode project.
+Also within this folder is the knotClassifier.mlmodel file, which is the converted Keras convolutional neural network that was converted by the convertModel.py script located within the KnotClassifier folder.
+Simply drag the knotClassifier.mlmodel file into the Xcode project to use the model.
+
+Overall, this software provides the capability to classify ten knots, with the ten knots being:
 * The Alpine Butterfly Knot
 * The Bowline Knot
 * The Clove Hitch
@@ -18,4 +24,5 @@ In total, this software provides the capability to classify ten knots, with the 
 * The Reef Knot
 * The Slip Knot
 
-A controlled dataset, containing images of these ten knots in differing conditions is available on Kaggle at https://www.kaggle.com/josephcameron/10knots
+A controlled dataset containing images of these ten knots in differing conditions is available on Kaggle at https://www.kaggle.com/josephcameron/10knots.
+This dataset is called 10Knots, and was used to train and validate the convolutional neural network implemented in Keras.
