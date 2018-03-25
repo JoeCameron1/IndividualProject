@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7C85F0C820642D3100FF9282 /* knotClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 7C85F0C720642D3100FF9282 /* knotClassifier.mlmodel */; };
+		7CC7EA362017AC90003928A5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC7EA352017AC90003928A5 /* AppDelegate.swift */; };
+		7CC7EA382017AC90003928A5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC7EA372017AC90003928A5 /* ViewController.swift */; };
+		7CC7EA3B2017AC90003928A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CC7EA392017AC90003928A5 /* Main.storyboard */; };
+		7CC7EA3D2017AC90003928A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CC7EA3C2017AC90003928A5 /* Assets.xcassets */; };
+		7CC7EA402017AC90003928A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CC7EA3E2017AC90003928A5 /* LaunchScreen.storyboard */; };
+		7CC7EA4B2017AC90003928A5 /* The_Knot_ClassifierTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC7EA4A2017AC90003928A5 /* The_Knot_ClassifierTests.swift */; };
+		7CC7EA562017AC90003928A5 /* The_Knot_ClassifierUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC7EA552017AC90003928A5 /* The_Knot_ClassifierUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7CC7EA472017AC90003928A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7CC7EA2A2017AC90003928A5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7CC7EA312017AC90003928A5;
+			remoteInfo = "The Knot Classifier";
+		};
+		7CC7EA522017AC90003928A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7CC7EA2A2017AC90003928A5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7CC7EA312017AC90003928A5;
+			remoteInfo = "The Knot Classifier";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7C85F0C720642D3100FF9282 /* knotClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = knotClassifier.mlmodel; path = ../../iOSModel/knotClassifier.mlmodel; sourceTree = "<group>"; };
+		7CC7EA322017AC90003928A5 /* The Knot Classifier.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "The Knot Classifier.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CC7EA352017AC90003928A5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7CC7EA372017AC90003928A5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7CC7EA3A2017AC90003928A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7CC7EA3C2017AC90003928A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7CC7EA3F2017AC90003928A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7CC7EA412017AC90003928A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CC7EA462017AC90003928A5 /* The Knot ClassifierTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "The Knot ClassifierTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CC7EA4A2017AC90003928A5 /* The_Knot_ClassifierTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = The_Knot_ClassifierTests.swift; sourceTree = "<group>"; };
+		7CC7EA4C2017AC90003928A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CC7EA512017AC90003928A5 /* The Knot ClassifierUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "The Knot ClassifierUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CC7EA552017AC90003928A5 /* The_Knot_ClassifierUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = The_Knot_ClassifierUITests.swift; sourceTree = "<group>"; };
+		7CC7EA572017AC90003928A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7CC7EA2F2017AC90003928A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CC7EA432017AC90003928A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CC7EA4E2017AC90003928A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7CC7EA292017AC90003928A5 = {
+			isa = PBXGroup;
+			children = (
+				7CC7EA342017AC90003928A5 /* The Knot Classifier */,
+				7CC7EA492017AC90003928A5 /* The Knot ClassifierTests */,
+				7CC7EA542017AC90003928A5 /* The Knot ClassifierUITests */,
+				7CC7EA332017AC90003928A5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7CC7EA332017AC90003928A5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7CC7EA322017AC90003928A5 /* The Knot Classifier.app */,
+				7CC7EA462017AC90003928A5 /* The Knot ClassifierTests.xctest */,
+				7CC7EA512017AC90003928A5 /* The Knot ClassifierUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7CC7EA342017AC90003928A5 /* The Knot Classifier */ = {
+			isa = PBXGroup;
+			children = (
+				7CC7EA352017AC90003928A5 /* AppDelegate.swift */,
+				7CC7EA372017AC90003928A5 /* ViewController.swift */,
+				7C85F0C720642D3100FF9282 /* knotClassifier.mlmodel */,
+				7CC7EA392017AC90003928A5 /* Main.storyboard */,
+				7CC7EA3C2017AC90003928A5 /* Assets.xcassets */,
+				7CC7EA3E2017AC90003928A5 /* LaunchScreen.storyboard */,
+				7CC7EA412017AC90003928A5 /* Info.plist */,
+			);
+			path = "The Knot Classifier";
+			sourceTree = "<group>";
+		};
+		7CC7EA492017AC90003928A5 /* The Knot ClassifierTests */ = {
+			isa = PBXGroup;
+			children = (
+				7CC7EA4A2017AC90003928A5 /* The_Knot_ClassifierTests.swift */,
+				7CC7EA4C2017AC90003928A5 /* Info.plist */,
+			);
+			path = "The Knot ClassifierTests";
+			sourceTree = "<group>";
+		};
+		7CC7EA542017AC90003928A5 /* The Knot ClassifierUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7CC7EA552017AC90003928A5 /* The_Knot_ClassifierUITests.swift */,
+				7CC7EA572017AC90003928A5 /* Info.plist */,
+			);
+			path = "The Knot ClassifierUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7CC7EA312017AC90003928A5 /* The Knot Classifier */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CC7EA5A2017AC90003928A5 /* Build configuration list for PBXNativeTarget "The Knot Classifier" */;
+			buildPhases = (
+				7CC7EA2E2017AC90003928A5 /* Sources */,
+				7CC7EA2F2017AC90003928A5 /* Frameworks */,
+				7CC7EA302017AC90003928A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "The Knot Classifier";
+			productName = "The Knot Classifier";
+			productReference = 7CC7EA322017AC90003928A5 /* The Knot Classifier.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7CC7EA452017AC90003928A5 /* The Knot ClassifierTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CC7EA5D2017AC90003928A5 /* Build configuration list for PBXNativeTarget "The Knot ClassifierTests" */;
+			buildPhases = (
+				7CC7EA422017AC90003928A5 /* Sources */,
+				7CC7EA432017AC90003928A5 /* Frameworks */,
+				7CC7EA442017AC90003928A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7CC7EA482017AC90003928A5 /* PBXTargetDependency */,
+			);
+			name = "The Knot ClassifierTests";
+			productName = "The Knot ClassifierTests";
+			productReference = 7CC7EA462017AC90003928A5 /* The Knot ClassifierTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7CC7EA502017AC90003928A5 /* The Knot ClassifierUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CC7EA602017AC90003928A5 /* Build configuration list for PBXNativeTarget "The Knot ClassifierUITests" */;
+			buildPhases = (
+				7CC7EA4D2017AC90003928A5 /* Sources */,
+				7CC7EA4E2017AC90003928A5 /* Frameworks */,
+				7CC7EA4F2017AC90003928A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7CC7EA532017AC90003928A5 /* PBXTargetDependency */,
+			);
+			name = "The Knot ClassifierUITests";
+			productName = "The Knot ClassifierUITests";
+			productReference = 7CC7EA512017AC90003928A5 /* The Knot ClassifierUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7CC7EA2A2017AC90003928A5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Joseph Cameron";
+				TargetAttributes = {
+					7CC7EA312017AC90003928A5 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					7CC7EA452017AC90003928A5 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7CC7EA312017AC90003928A5;
+					};
+					7CC7EA502017AC90003928A5 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7CC7EA312017AC90003928A5;
+					};
+				};
+			};
+			buildConfigurationList = 7CC7EA2D2017AC90003928A5 /* Build configuration list for PBXProject "The Knot Classifier" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7CC7EA292017AC90003928A5;
+			productRefGroup = 7CC7EA332017AC90003928A5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7CC7EA312017AC90003928A5 /* The Knot Classifier */,
+				7CC7EA452017AC90003928A5 /* The Knot ClassifierTests */,
+				7CC7EA502017AC90003928A5 /* The Knot ClassifierUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7CC7EA302017AC90003928A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CC7EA402017AC90003928A5 /* LaunchScreen.storyboard in Resources */,
+				7CC7EA3D2017AC90003928A5 /* Assets.xcassets in Resources */,
+				7CC7EA3B2017AC90003928A5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CC7EA442017AC90003928A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CC7EA4F2017AC90003928A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7CC7EA2E2017AC90003928A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CC7EA382017AC90003928A5 /* ViewController.swift in Sources */,
+				7CC7EA362017AC90003928A5 /* AppDelegate.swift in Sources */,
+				7C85F0C820642D3100FF9282 /* knotClassifier.mlmodel in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CC7EA422017AC90003928A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CC7EA4B2017AC90003928A5 /* The_Knot_ClassifierTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CC7EA4D2017AC90003928A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CC7EA562017AC90003928A5 /* The_Knot_ClassifierUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7CC7EA482017AC90003928A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7CC7EA312017AC90003928A5 /* The Knot Classifier */;
+			targetProxy = 7CC7EA472017AC90003928A5 /* PBXContainerItemProxy */;
+		};
+		7CC7EA532017AC90003928A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7CC7EA312017AC90003928A5 /* The Knot Classifier */;
+			targetProxy = 7CC7EA522017AC90003928A5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7CC7EA392017AC90003928A5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7CC7EA3A2017AC90003928A5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7CC7EA3E2017AC90003928A5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7CC7EA3F2017AC90003928A5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7CC7EA582017AC90003928A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7CC7EA592017AC90003928A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7CC7EA5B2017AC90003928A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BRWDLLMA7M;
+				INFOPLIST_FILE = "The Knot Classifier/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.The-Knot-Classifier";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7CC7EA5C2017AC90003928A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BRWDLLMA7M;
+				INFOPLIST_FILE = "The Knot Classifier/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.The-Knot-Classifier";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7CC7EA5E2017AC90003928A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "The Knot ClassifierTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.The-Knot-ClassifierTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/The Knot Classifier.app/The Knot Classifier";
+			};
+			name = Debug;
+		};
+		7CC7EA5F2017AC90003928A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "The Knot ClassifierTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.The-Knot-ClassifierTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/The Knot Classifier.app/The Knot Classifier";
+			};
+			name = Release;
+		};
+		7CC7EA612017AC90003928A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "The Knot ClassifierUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.The-Knot-ClassifierUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "The Knot Classifier";
+			};
+			name = Debug;
+		};
+		7CC7EA622017AC90003928A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "The Knot ClassifierUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.The-Knot-ClassifierUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "The Knot Classifier";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7CC7EA2D2017AC90003928A5 /* Build configuration list for PBXProject "The Knot Classifier" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CC7EA582017AC90003928A5 /* Debug */,
+				7CC7EA592017AC90003928A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7CC7EA5A2017AC90003928A5 /* Build configuration list for PBXNativeTarget "The Knot Classifier" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CC7EA5B2017AC90003928A5 /* Debug */,
+				7CC7EA5C2017AC90003928A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7CC7EA5D2017AC90003928A5 /* Build configuration list for PBXNativeTarget "The Knot ClassifierTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CC7EA5E2017AC90003928A5 /* Debug */,
+				7CC7EA5F2017AC90003928A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7CC7EA602017AC90003928A5 /* Build configuration list for PBXNativeTarget "The Knot ClassifierUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CC7EA612017AC90003928A5 /* Debug */,
+				7CC7EA622017AC90003928A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7CC7EA2A2017AC90003928A5 /* Project object */;
+}
