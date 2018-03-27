@@ -268,3 +268,6 @@ Date | Duration | Summary
 26/03/2018 | 8 Hours | Finished the Conclusion chapter. 
 27/03/2018 | 8 Hours | Finalised the dissertation. 
 28/03/2018 | 8 Hours | Finished the dissertation project and handed in the dissertation and code.
+
+
+## Total Time Spent on Project and Dissertation = 457 Hours
