@@ -64,8 +64,8 @@ img_width, img_height = 150, 150
 # Global variables that are directory specific
 train_data_dir = 'dataResized/train'
 validation_data_dir = 'dataResized/validation'
-nb_train_samples = 384
-nb_validation_samples = 192
+nb_train_samples = 1170
+nb_validation_samples = 274
 epochs = 100
 batch_size = 32
 
