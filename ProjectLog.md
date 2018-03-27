@@ -220,10 +220,51 @@ Date | Duration | Summary
 
 Date | Duration | Summary
 ------------ | ------------- | -------------
-22/02/2018 | | 
-23/02/2018 | | 
-24/02/2018 | |
-25/02/2018 | | 
-26/02/2018 | | 
-27/02/2018 | | 
-28/02/2018 | |
+22/02/2018 | 5 Hours | Started a first draft of the Design chapter. 
+23/02/2018 | 5 Hours | Committed code for creating confusion matrices. 
+25/02/2018 | 6 Hours | Training the large CNN for 1000 epochs  
+27/02/2018 | 3 Hours | Writing more content for the Background chapter, this time focusing on Image Classification.
+
+
+## Week 19
+
+Date | Duration | Summary
+------------ | ------------- | -------------
+01/03/2018 | 2 Hours | Wrote a script that displays data augmented images. 
+02/03/2018 | 4 Hours | Made figures for the Design and Implementation chapters of the dissertation. 
+05/03/2018 | 5 Hours | Finished a first draft of the Introduction and Background chapters. 
+06/03/2018 | 5 Hours | Added top-3 predictions to the iOS application.
+
+
+## Week 20
+
+Date | Duration | Summary
+------------ | ------------- | -------------
+08/03/2018 | 6 Hours | Finished a first draft of the Design chapter. 
+09/03/2018 | 5 Hours | Added flags to the knot classifier python script and finished a first draft of the Scope and Requirements for the dissertation.  
+12/03/2018 | 6 Hours | Started planning the evaluation.
+
+
+## Week 21
+
+Date | Duration | Summary
+------------ | ------------- | -------------
+15/03/2018 | 10 Hours | Carried out evaluation on dataset features. 
+16/03/2018 | 12 Hours | Performed the Small Model Architecture Experiment. 
+17/03/2018 | 12 Hours | Performed the Medium Model Architecture Experiment.
+19/03/2018 | 12 Hours | Performed the Large Model Architecture Experiment. 
+20/03/2018 | 8 Hours | Prepared the presentation slides. 
+21/03/2018 | 12 Hours | Performed the data augmentation experiments.
+
+
+## Week 22
+
+Date | Duration | Summary
+------------ | ------------- | -------------
+22/03/2018 | 6 Hours | Finished the iOS application and made the project video. 
+23/03/2018 | 2 Hours | Gave the Presentation. 
+24/03/2018 | 8 Hours | Finished a first draft of the evaluation.
+25/03/2018 | 8 Hours | Finalised the Introduction, Background, Design and Implementation chapters. 
+26/03/2018 | 8 Hours | Finished the Conclusion chapter. 
+27/03/2018 | 8 Hours | Finalised the dissertation. 
+28/03/2018 | 8 Hours | Finished the dissertation project and handed in the dissertation and code.
