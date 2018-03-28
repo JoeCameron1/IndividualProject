@@ -26,3 +26,5 @@ Overall, this software provides the capability to classify ten knots, with the t
 
 A controlled dataset containing images of these ten knots in differing conditions is available on Kaggle at https://www.kaggle.com/josephcameron/10knots.
 This dataset is called 10Knots, and was used to train and validate the convolutional neural network implemented in Keras.
+
+A demonstration video detailing the implementation can be found at https://www.youtube.com/watch?v=OvO8Q4mA0ac&t=411s.
