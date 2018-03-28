@@ -12,6 +12,7 @@ Furthermore, an iOS application was developed to serve as an interface to utilis
 The iOS application is called The Knot Classifier, and is located within the iOSApp folder as an Xcode project.
 Also within this folder is the knotClassifier.mlmodel file, which is the converted Keras convolutional neural network that was converted by the convertModel.py script located within the KnotClassifier folder.
 Simply drag the knotClassifier.mlmodel file into the Xcode project to use the model.
+The iOS application has been implemented to run on an iPhone 6s Plus, and so the interface has been designed to match that phone's screen size.
 
 Overall, this software provides the capability to classify ten knots, with the ten knots being:
 * The Alpine Butterfly Knot
