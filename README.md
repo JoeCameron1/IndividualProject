@@ -1,6 +1,6 @@
 # IndividualProject - Joseph M. Cameron
 ## Using Machine Learning to Understand Knot Topology
-This repository contains the code, log, meeting minutes and status reports for my individual dissertation project, which was undertaken during my 4th year at the University of Glasgow.
+This repository contains the code, log, meeting minutes and status reports for my individual dissertation project, which was undertaken during my 4th year at the University of Glasgow. The project was supervised by Dr John Williamson (http://www.johnhw.com).
 
 This project's aim is to classify knots based on their topology.
 
