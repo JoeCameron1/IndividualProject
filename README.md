@@ -6,6 +6,8 @@ This project's aim is to classify knots based on their topology.
 
 Knot classification is achieved by a convolutional neural network implemented in Keras.
 The convolutional neural network training software is located within the python script knotClassifier.py located in the KnotClassifier folder.
+Upon completion of training, the knotClassifier.py script also provides many useful data visualisation plots such as a t-SNE visualisation plot, multiple training history plots and a confusion matrix plot.
+This is extremely useful for evaluating the knot classifier.
 Make sure to download and install the latest versions of all required pip packages including Keras (2.1.3), Tensorflow (1.3.0), sklearn, numpy, scipy, coremltools (0.8) and others to correctly run the training software.
 
 Furthermore, an iOS application was developed to serve as an interface to utilise the trained Keras convolutional neural network to predict knots in real-time via an iPhone's camera.
