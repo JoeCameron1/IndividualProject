@@ -35,4 +35,10 @@ Here is a screenshot of the Knot Classifier iOS Application in action, with the 
 
 <img src="Dissertation/IntroApp.jpg" width="40%">
 
-A demonstration video detailing the implementation can be found at https://www.youtube.com/watch?v=OvO8Q4mA0ac.
+The following confusion matrix visualises and gives an indication of the Knot Classifier iOS application's classification performance when given 36 random real-time images for each and every knot in similar conditions to those observed within the [10Knots dataset](https://www.kaggle.com/josephcameron/10knots):
+
+<img src="Dissertation/confusionMatrix.jpg" width="60%">
+
+After observing the whole confusion matrix, it can be seen that for these example real-world test images, the classifier has a top-1 classification accuracy of 77.5%.
+
+A demonstration video detailing the implementation of the whole project can be found at https://www.youtube.com/watch?v=OvO8Q4mA0ac.
