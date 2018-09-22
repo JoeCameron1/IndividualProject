@@ -2,6 +2,9 @@
 ## Using Machine Learning to Understand the Topology of Knots
 This repository contains the code, log, meeting minutes and status reports for my individual dissertation project, which was undertaken during my 4th year at the University of Glasgow. The project was supervised by Dr John Williamson (http://www.johnhw.com).
 
+The final dissertation PDF can be viewed and downloaded here: [Dissertation PDF](Dissertation/dissertation.pdf).
+All dissertation source materials, including the final pdf, can be found in the [Dissertation](Dissertation) folder.
+
 This project's aim is to classify knots based on their topology, from images.
 
 Overall, this software provides the capability to classify ten knots, with the ten knots being:
