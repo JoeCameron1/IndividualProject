@@ -2,8 +2,12 @@
 ## Using Machine Learning to Understand the Topology of Knots
 This repository contains the code, log, meeting minutes and status reports for my individual dissertation project, which was undertaken during my 4th year at the University of Glasgow. The project was supervised by Dr John Williamson (http://www.johnhw.com).
 
+-----------------------------------
+
 The final dissertation PDF can be viewed and downloaded here: [Dissertation PDF](Dissertation/dissertation.pdf).
 All dissertation source materials, including the final pdf, can be found in the [Dissertation](Dissertation) folder.
+
+-----------------------------------
 
 This project's aim is to classify knots based on their topology, from images.
 
@@ -38,10 +42,12 @@ Here is a screenshot of the Knot Classifier iOS Application in action, with the 
 
 <img src="Dissertation/IntroApp.jpg" width="40%">
 
+A demonstration video detailing the implementation of the whole project can be found at this link: https://www.youtube.com/watch?v=OvO8Q4mA0ac.
+
+-------------------------------------------
+
 The following confusion matrix visualises and gives an indication of the Knot Classifier iOS application's classification performance when given 36 random real-time images for each and every knot in similar conditions to those observed within the [10Knots dataset](https://www.kaggle.com/josephcameron/10knots):
 
 <img src="Dissertation/confusionMatrix.jpg" width="60%">
 
 After observing the whole confusion matrix, it can be seen that for these example real-world test images, the classifier has a top-1 classification accuracy of 77.5%.
-
-A demonstration video detailing the implementation of the whole project can be found at https://www.youtube.com/watch?v=OvO8Q4mA0ac.
