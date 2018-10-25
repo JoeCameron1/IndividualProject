@@ -30,7 +30,7 @@ from sklearn.metrics import confusion_matrix
 
 # LOAD MODEL
 
-model = load_model('first_try.h5)
+model = load_model('first_try.h5')
 model.compile(loss='categorical_crossentropy',
               optimizer='adam',
               metrics=['accuracy'])
