@@ -46,8 +46,51 @@ A demonstration video detailing the implementation of the whole project can be f
 
 -------------------------------------------
 
-The following confusion matrix visualises and gives an indication of the Knot Classifier iOS application's classification performance when given 36 random real-time images for each and every knot in similar conditions to those observed within the [10Knots dataset](https://www.kaggle.com/josephcameron/10knots):
+The following confusion matrix, which was plotted with the [plot_confusion_matrix.py](KnotClassifier/plot_confusion_matrix.py) script, visualises and gives an indication of the Knot Classifier iOS application's classification performance when given 36 random real-time images for each and every knot in similar conditions to those observed within the [10Knots dataset](https://www.kaggle.com/josephcameron/10knots):
 
 <img src="Dissertation/confusionMatrix.jpg" width="60%">
 
 After observing the whole confusion matrix, it can be seen that for these example real-world test images, the classifier has a top-1 classification accuracy of 77.5%.
+
+From the same confusion matrix, it is also possible to obtain the number of true positives (TP), false negatives (FN), true negatives (TN) and false positives (FP) of each class in order to calculate the:
+* Sensitivity of each class (TP/TP+FN)
+* Specificity of each class (TN/TN+FP)
+* Positive Predictive Value (PPV) of each class (TP/TP+FP)
+* Negative Predictive Value (NPV) of each class (TN/TN+FN)
+
+A table of the TP, FN, TN and FP values of each class from the confusion matrix is shown below in a 'one vs all' manner:
+
+| Class (Knot) | TP | FN | TN | FP |
+| ------------ | -- | -- | -- | -- |
+| Alpine Butterfly Knot | 25 | 11 | 312 | 12 |
+| Bowline Knot | 14 | 22 | 315 | 9 |
+| Clove Hitch | 36 | 0 | 324 | 0 |
+| Figure-8 Knot | 19 | 17 | 321 | 3 |
+| Figure-8 Loop | 31 | 5 | 307 | 17 |
+| Fisherman's Knot | 36 | 0 | 312 | 12 |
+| Flemish Bend | 21 | 15 | 324 | 0 |
+| Overhand Knot | 28 | 8 | 312 | 12 |
+| Reef Knot | 36 | 0 | 321 | 3 |
+| Slip Knot | 33 | 3 | 311 | 13 |
+
+The calculated sensitivity, specificity, PPV and NPV values of each class are displayed and visualised in the table and bar chart below:
+
+| Class (Knot) | Sensitivity (%) | Specificity (%) | PPV (%) | NPV (%) |
+| ------------ | -- | -- | -- | -- |
+| Alpine Butterfly Knot | 69.4 | 96.3 | 67.6 | 96.6 |
+| Bowline Knot | 38.9 | 97.2 | 60.9 | 93.5 |
+| Clove Hitch | 100 | 100 | 100 | 100 |
+| Figure-8 Knot | 52.8 | 99.1 | 86.4 | 95.0 |
+| Figure-8 Loop | 86.1 | 94.8 | 64.6 | 98.4 |
+| Fisherman's Knot | 100 | 96.3 | 75.0 | 100 |
+| Flemish Bend | 58.3 | 100 | 100 | 95.6 |
+| Overhand Knot | 77.8 | 96.3 | 70.0 | 97.5 |
+| Reef Knot | 100 | 99.1 | 92.3 | 100 |
+| Slip Knot | 91.7 | 96.0 | 71.7 | 99.0 |
+
+<img src="Dissertation/cm_bar_chart.png" width="100%">
+
+As part of the classifier's evaluation, multiclass receiver operating characteristic (ROC) analysis was achieved via the [multiclass_roc_analysis.py](KnotClassifier/multiclass_roc_analysis.py) script.
+This python script produced the following ROC curves for each class from the same prediction probabilities and values seen in the confusion matrix further above:
+
+<img src="Dissertation/roc_curve.jpg" width="100%">
