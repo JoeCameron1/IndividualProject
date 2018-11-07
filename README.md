@@ -62,31 +62,31 @@ A table of the TP, FN, TN and FP values of each class from the confusion matrix 
 
 | Class (Knot) | TP | FN | TN | FP |
 | ------------ | -- | -- | -- | -- |
-| Alpine Butterfly Knot | 25 | 11 | 312 | 12 |
-| Bowline Knot | 14 | 22 | 315 | 9 |
-| Clove Hitch | 36 | 0 | 324 | 0 |
-| Figure-8 Knot | 19 | 17 | 321 | 3 |
-| Figure-8 Loop | 31 | 5 | 307 | 17 |
-| Fisherman's Knot | 36 | 0 | 312 | 12 |
-| Flemish Bend | 21 | 15 | 324 | 0 |
-| Overhand Knot | 28 | 8 | 312 | 12 |
-| Reef Knot | 36 | 0 | 321 | 3 |
-| Slip Knot | 33 | 3 | 311 | 13 |
+| Alpine Butterfly Knot (Class 0) | 25 | 11 | 312 | 12 |
+| Bowline Knot (Class 1) | 14 | 22 | 315 | 9 |
+| Clove Hitch (Class 2) | 36 | 0 | 324 | 0 |
+| Figure-8 Knot (Class 3) | 19 | 17 | 321 | 3 |
+| Figure-8 Loop (Class 4) | 31 | 5 | 307 | 17 |
+| Fisherman's Knot (Class 5) | 36 | 0 | 312 | 12 |
+| Flemish Bend (Class 6) | 21 | 15 | 324 | 0 |
+| Overhand Knot (Class 7) | 28 | 8 | 312 | 12 |
+| Reef Knot (Class 8) | 36 | 0 | 321 | 3 |
+| Slip Knot (Class 9) | 33 | 3 | 311 | 13 |
 
 The calculated sensitivity, specificity, PPV and NPV values of each class are displayed and visualised in the table and bar chart below:
 
 | Class (Knot) | Sensitivity (%) | Specificity (%) | PPV (%) | NPV (%) |
 | ------------ | -- | -- | -- | -- |
-| Alpine Butterfly Knot | 69.4 | 96.3 | 67.6 | 96.6 |
-| Bowline Knot | 38.9 | 97.2 | 60.9 | 93.5 |
-| Clove Hitch | 100 | 100 | 100 | 100 |
-| Figure-8 Knot | 52.8 | 99.1 | 86.4 | 95.0 |
-| Figure-8 Loop | 86.1 | 94.8 | 64.6 | 98.4 |
-| Fisherman's Knot | 100 | 96.3 | 75.0 | 100 |
-| Flemish Bend | 58.3 | 100 | 100 | 95.6 |
-| Overhand Knot | 77.8 | 96.3 | 70.0 | 97.5 |
-| Reef Knot | 100 | 99.1 | 92.3 | 100 |
-| Slip Knot | 91.7 | 96.0 | 71.7 | 99.0 |
+| Alpine Butterfly Knot (Class 0) | 69.4 | 96.3 | 67.6 | 96.6 |
+| Bowline Knot (Class 1) | 38.9 | 97.2 | 60.9 | 93.5 |
+| Clove Hitch (Class 2) | 100 | 100 | 100 | 100 |
+| Figure-8 Knot (Class 3) | 52.8 | 99.1 | 86.4 | 95.0 |
+| Figure-8 Loop (Class 4) | 86.1 | 94.8 | 64.6 | 98.4 |
+| Fisherman's Knot (Class 5) | 100 | 96.3 | 75.0 | 100 |
+| Flemish Bend (Class 6) | 58.3 | 100 | 100 | 95.6 |
+| Overhand Knot (Class 7) | 77.8 | 96.3 | 70.0 | 97.5 |
+| Reef Knot (Class 8) | 100 | 99.1 | 92.3 | 100 |
+| Slip Knot (Class 9) | 91.7 | 96.0 | 71.7 | 99.0 |
 
 <img src="Dissertation/cm_bar_chart.png" width="100%">
 
